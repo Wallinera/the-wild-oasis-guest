@@ -1,7 +1,5 @@
 # The Wild Oasis
 
-![The Wild Oasis Thumbnail Image](./src/data/preview/thumbnail-preview.jpg)
-
 ** A hotel web app, where guests can book cabins, manage their reservations and their profile **
 
 ---
