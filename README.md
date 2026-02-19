@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis
 
-## Getting Started
+![The Wild Oasis Thumbnail Image](./src/data/preview/thumbnail-preview.jpg)
 
-First, run the development server:
+** A hotel web app, where guests can book cabins, manage their reservations and their profile **
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. [About the Project](#about-the-project)
+2. [Features](#features)
+3. [Screenshots](#screenshots)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Contact](#contact)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## About the Project
 
-To learn more about Next.js, take a look at the following resources:
+Welcome to The Wild Oasis, a guest-facing web application that invites visitors to explore and book luxury cabins in a serene nature retreat. Built with modern web technologies, this platform features an intuitive interface for browsing cabins, learning about the property, and accessing a dedicated guest area — all designed to deliver a seamless reservation experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Cabin Exploration**: Browse beautifully presented cabins with detailed descriptions, pricing, and amenities.
+- **Seamless Booking**: Make reservations effortlessly with a clean and intuitive booking flow.
+- **Guest Dashboard**: View your upcoming stays, manage your reservations, and update personal details.
+- **Secure Authentication**: Log in safely to access your personalized guest area and booking history.
+- **Responsive Design**: Optimized for a smooth experience across desktop, tablet, and mobile devices.
+- **Real-Time Availability**: Check up-to-date cabin availability before confirming your stay.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Login Page
+
+![Login Page](preview/signin.PNG)
+
+### Home Page
+
+![Home Page](./preview/homepage.PNG)
+
+### About Page
+
+![About Page](./preview/aboutPage.PNG)
+
+### Small Cabins
+
+![Small Cabins](./preview/smallCabins.PNG)
+
+### Medium Cabins
+
+![Medium Cabins](./preview/mediumCabins.PNG)
+
+### Large Cabins
+
+![Large Cabins](./preview/largeCabins.PNG)
+
+### Reservation & Cabin Detail
+
+![Reservation & Cabin Detail](./preview/reservationPage.PNG)
+
+### Managing Reservations
+
+![Managing Reservations](./preview/managingReservations.PNG)
+
+### Editing Reservation
+
+![Editing Reservation](./preview/editReservation.PNG)
+
+### Updating Guest Profile
+
+![Updating Guest Profile](./preview/guestProfile.PNG)
+
+---
+
+## Usage
+
+1. **Log In**: Logging in through google accounts.
+2. **Navigate**: Use the sidebar to navigate through different sections (Cabins, About, Guests area).
+3. **Make a reservation**: Select your stay dates and confirm a reservation through the streamlined booking flow.
+4. **Access Guest Dashboard**: View your upcoming stays, manage existing bookings, or update your personal information.
+5. **Log Out**: Securely log out when you are done managing your stay.
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## Contact
+
+Emirhan Karagöz - [emirhan-karagoz1@hotmail.com](mailto:emirhan-karagoz1@hotmail.com)
+
+Project Link: [GitHub Repository](https://github.com/Wallinera/the-wild-oasis-guest)
+
+Live Site URL: [wildoasis.vercell.app](https://the-wild-oasis-guest-six.vercel.app)
