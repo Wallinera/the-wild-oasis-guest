@@ -12,10 +12,10 @@ import { useReservation } from "./ReservationContext";
 
 function isAlreadyBooked(range, datesArr) {
   return (
-    range.from &&
-    range.to &&
+    range?.from &&
+    range?.to &&
     datesArr.some((date) =>
-      isWithinInterval(date, { start: range.from, end: range.to }),
+      isWithinInterval(date, { start: range?.from, end: range?.to }),
     )
   );
 }

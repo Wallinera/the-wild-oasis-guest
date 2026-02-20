@@ -54,6 +54,8 @@ function UpdateProfileForm({ children, guest }) {
         <input
           name="nationalID"
           defaultValue={nationalID}
+          maxLength={12}
+          minLength={6}
           className="px-5 py-3 bg-primary-200 text-primary-800 w-full shadow-sm rounded-sm"
         />
       </div>
